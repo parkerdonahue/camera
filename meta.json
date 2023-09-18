@@ -21,8 +21,8 @@
                     "createdAt": "2023-09-12T03:05:53.720Z",
                     "updatedAt": "2023-09-12T03:05:53.720Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb3886253d140010e33253/projects/64ffc45b8dd71ef9ff614ac2/assets/64ffd591ba87c6cf32766e67?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230918%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230918T194811Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=365f723754a07743ba336f5f793b7a797450da4f7798809dc14ded6017e1ae7d7213f945e41ea60d9991e0b145995bebc0dc40321a47636a7db7a5c2ad57703066b2fd31934d6fb38eba5f1ce76c19b02cd89286dbe2283df30fb736cf3e6d2d70211dfdab634c4b41c431289885343c13d158c85d3de82c52930a2993a48d0b7968a1372763c27fa11f486713020f7351bfd5df95cd057ccf100004696c6450a88485a7575349e9319328097ffe13384f598c7603826325e42700f400b43e22c7a6432da9cbf7121c804ec66196193aa1bf2e8faf4c63d8d57dd39dc3f71c192f448c60ead2f112a3057c1198188b141071a95f94d2a25dd9df90b0fee83719",
-                    "signedUrlExpirationTime": 1695239291822
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64fb3886253d140010e33253/projects/64ffc45b8dd71ef9ff614ac2/assets/64ffd591ba87c6cf32766e67?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230918%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230918T200010Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4e4f4ff474d08439a3bc388ccb2325968a886be78f48df0f0353e8e3bdeb5bcbb01e815f82eae5563026cfd6f6bb0c3e47bbd65013b3ce9795140c952122f6a9ba776a1abbcbce594a453dca194796aa59ca263598a62fb41655636bc227a208ecf89e2fe18580cb5bbcc49d6e5eb184cc74ac4757b310a530053c5a0fc094ce413698b549a6da381368e7004b84bd7df7e8b1f1f8a1c6875d2ecd11a0ef6e3767ff328f0c565871264ee0945be7b8eb6ee613c9d62307e62d2d5b2fa2a32679b2af63ae84b86be75a22fa718ae4ba086a64478bec401718569ae9856d69d3dbcc97c09005792f05c202e9fdfd9f487bfa51525712f0d5b82ac314046a4ab4f7",
+                    "signedUrlExpirationTime": 1695240010138
                 }
             },
             "backendUpgradeVersion": 21,
@@ -35,14 +35,14 @@
                         ],
                         "ios": [
                             {
-                                "name": "NSCameraUsageDescription",
-                                "label": "Camera",
-                                "hint": "Describe why your app uses the camera."
-                            },
-                            {
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     }
@@ -81,7 +81,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Parker's Camera",
+            "projectName": "Dev Camera",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -115,7 +115,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -164,7 +164,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -189,7 +189,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "2",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {},
